@@ -1,6 +1,6 @@
 # EduVerse-Carlos-Filho
 
-Documento: https://docs.google.com/document/d/1pMRo3DyZBYa0B_NBMFnUNwETlg1OVTSGL2-V7FkUBUM/edit?usp=sharing
+Documento: https://docs.google.com/document/d/1pZOkRkTawHDkmCfiGxBotlRy5a-H_k95HlhiDqOcqgI/edit?usp=sharing
 
 Arquitetura de software
 
