@@ -1,7 +1,7 @@
 # EduVerse - Plataforma Educacional Inteligente
 
 ## Visão Executiva
-O EduVerse visa solucionar a limitação dos métodos de ensino tradicionais em identificar e suprir as lacunas de conhecimento individuais dos alunos[cite: 115]. [cite_start]A plataforma atua como uma camada de inteligência educacional que coexiste e se integra diretamente ao LMS institucional atual (ex: Moodle), não visando substituí-lo, mas sim complementá-lo. 
+O EduVerse visa solucionar a limitação dos métodos de ensino tradicionais em identificar e suprir as lacunas de conhecimento individuais dos alunos.A plataforma atua como uma camada de inteligência educacional que coexiste e se integra diretamente ao LMS institucional atual (ex: Moodle), não visando substituí-lo, mas sim complementá-lo. 
 
 No estado atual (Fase 3/4 - Nuvem e Resiliência), o sistema evoluiu de um modelo monolítico para uma Arquitetura Hexagonal com forte isolamento de domínio, preparada para implantação em nuvem (Cloud Native).O foco atual é garantir escalabilidade para suportar mais de 3.000 alunos simultâneos sem degradação do serviço  e resiliência na comunicação com o sistema legado.
 
@@ -47,10 +47,13 @@ Nossas decisões e detalhamentos estão versionados nos seguintes documentos:
 SAD - Software Architecture Document
 
 ADR 0001 - Estratégia de Nuvem e Escalabilidade
+https://github.com/CarlosCF0503/EduVerse-Carlos-FilhoV2/blob/40037056be991b505117e8b020968044814dac73/docs/adrs/0001-estrategia-de-nuvem-e-escalabilidade.md
 
 ADR 0002 - Padrões de Resiliência (Circuit Breaker)
+https://github.com/CarlosCF0503/EduVerse-Carlos-FilhoV2/blob/40037056be991b505117e8b020968044814dac73/docs/adrs/0002-padrao-resiliencia.md
 
 ADR 0003 - Modelo de Comunicação (Assíncrona)
+https://github.com/CarlosCF0503/EduVerse-Carlos-FilhoV2/blob/40037056be991b505117e8b020968044814dac73/docs/adrs/0003-modelo-comunicacao.md
 
 Como executar o projeto localmente
 Como o projeto utiliza Arquitetura Hexagonal, os adaptadores podem ser facilmente mockados localmente.
@@ -60,7 +63,5 @@ Clone este repositório: git clone https://github.com/CarlosCF0503/EduVerse-Carl
 Acesse a pasta /gold-plating para utilizar o nosso ambiente conteinerizado pré-configurado.
 
 Execute docker-compose up -d para subir o Banco de Dados PostgreSQL e o simulador do Worker.
-
-
 
 
